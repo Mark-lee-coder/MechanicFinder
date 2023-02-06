@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mechanic Finder</string>
+    <string name="welcome">Welcome</string>
+    <string name="search">Garage search made easy</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="our_services">Our Services</string>
+</resources>
