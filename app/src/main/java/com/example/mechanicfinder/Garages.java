@@ -33,7 +33,7 @@ public class Garages extends AppCompatActivity {
 
         lvGaragesList = findViewById(R.id.garagesList);
 
-        ArrayAdapter arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, garages);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, garages);
         lvGaragesList.setAdapter(arrayAdapter);
 
         lvGaragesList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
